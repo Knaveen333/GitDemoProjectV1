@@ -6,7 +6,7 @@ object Test2 {
 
     val hungry = "yes"
 
-    if (hungry == "yes")
+    if (hungry == "yes" || hungry == "Y" || hungry == "y")
       println("eat something...")
     else
       println("Do work...")
